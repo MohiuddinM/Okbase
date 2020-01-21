@@ -1,0 +1,26 @@
+= Okbase
+
+image:https://img.shields.io/badge/vert.x-3.8.3-purple.svg[link="https://vertx.io"]
+
+A try at developing a general purpose backend
+
+== Building
+
+To launch tests:
+
+```
+./gradlew clean test
+```
+
+To package application:
+
+```
+./gradlew clean assemble
+```
+
+To run application:
+
+```
+./gradlew clean run
+```
+
